@@ -1,7 +1,7 @@
 # SpringBoot-ManyToOneEx
 SpringBoot-ManyToOne example with mysql database
-# Library used
+# Library USED
 JDK-17 , Lombok , MySqlDriver ,SpringDataJPA
 
-# Tool used
+# Tool USED
 STS-4 , MAVEN , MYSQL DATABASE 
