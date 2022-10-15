@@ -1,0 +1,32 @@
+package com.app.lokesh.runner;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+import com.app.lokesh.Repository.AccountRepository;
+import com.app.lokesh.Repository.CustomerRepository;
+import com.app.lokesh.entity.Account;
+import com.app.lokesh.entity.Customer;
+
+@Component
+public class TestRunner implements CommandLineRunner {
+	@Autowired
+	private AccountRepository aRepository;
+	@Autowired
+	private CustomerRepository cRepository;
+
+	@Override
+	public void run(String... args) throws Exception {
+		Customer c1 = new Customer(1053325,"LOKESH");
+		cRepository.save(c1);
+		
+		aRepository.saveAll(
+				List.of(
+						new Account(13063231,"saving",c1),
+						)
+				);
+	}
+}

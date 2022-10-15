@@ -1,0 +1,15 @@
+package com.app.lokesh.runner;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.app.lokesh.repository.AccountRepository;
+import com.app.lokesh.repository.CustomerRepository;
+
+@Component
+public class TestRunner {
+	@Autowired
+	private CustomerRepository cRepository;
+	@Autowired
+	private AccountRepository aRepository;
+}

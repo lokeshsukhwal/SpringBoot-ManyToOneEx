@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;customer&apos; in &apos;com.app.lokesh.runner.TestRunner.run(...)&apos; to &apos;c1&apos;&#x0D;&#x0A;- Original project: &apos;SpringBoot-OneToMany&apos;&#x0D;&#x0A;- Original element: &apos;com.app.lokesh.runner.TestRunner.run(String...).customer&apos;&#x0D;&#x0A;- Renamed element: &apos;customer&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;customer&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.app.lokesh.runner{TestRunner.java[TestRunner~run~\[QString;@customer!662!712!671!678!QCustomer;!0!false" name="c1" references="true" stamp="1665774054307" version="1.0"/>
+</session>

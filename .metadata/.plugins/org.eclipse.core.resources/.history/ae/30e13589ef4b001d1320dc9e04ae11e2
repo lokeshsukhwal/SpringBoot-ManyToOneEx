@@ -1,0 +1,5 @@
+package com.app.lokesh.Repository;
+
+public class AccountRepository {
+
+}
