@@ -14,7 +14,6 @@ mysql> select * from customer;
 +-----------+-----------+
 | 473164911 | LOKESH    |
 +-----------+-----------+
-1 row in set (0.05 sec)
 
 mysql> select * from account;
 +------------+--------------+-----------+-----------+
